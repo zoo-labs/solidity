@@ -16,3 +16,10 @@ scripts/make_abi.js
 .certora*
 emv-*
 resource_errors.json
+
+
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+GROK.md
+QWEN.md

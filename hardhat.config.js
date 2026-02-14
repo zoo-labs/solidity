@@ -125,6 +125,27 @@ module.exports = {
       chainId: 31337,
       accounts,
     },
+    localhost: {
+      url: "http://127.0.0.1:8545",
+      accounts,
+      chainId: 31337,
+    },
+    luxdevnet: {
+      url: "http://127.0.0.1:9640/ext/bc/C/rpc",
+      accounts,
+      chainId: 96368,
+      live: true,
+      saveDeployments: true,
+      gasPrice: 25000000000, // 25 gwei
+    },
+    luxdev: {
+      url: "http://127.0.0.1:9650/ext/bc/C/rpc",
+      accounts,
+      chainId: 96370,
+      live: false,
+      saveDeployments: true,
+      gasPrice: 25000000000, // 25 gwei
+    },
     // mainnet: {
     //   url: `https://mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
     //   accounts: [process.env.PRIVATE_KEY],
